@@ -1,0 +1,44 @@
+{
+  "name": "deloz/wechat-bridge",
+  "description": "WeChatBridge is a PHP library that simplifies integration with the WeChat API, providing developers with an easy and efficient way to build WeChat integrations in PHP.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "deloz",
+      "email": "npmbot@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "w7corp/easywechat": "6.11.3",
+    "illuminate/support": "^10.10"
+  },
+  "require-dev": {
+    "pestphp/pest": "2.x-dev",
+    "ergebnis/php-cs-fixer-config": "^5.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deloz\\WechatBridge\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Deloz\\WechatBridge\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "analyse": "vendor/bin/phpstan analyse",
+    "test": "vendor/bin/pest",
+    "test-coverage": "vendor/bin/pest coverage"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
