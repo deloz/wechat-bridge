@@ -1,11 +1,18 @@
 # Changelog
 
-## [1.2.0](https://github.com/deloz/wechat-bridge/compare/v1.1.0...v1.2.0) (2023-05-24)
+## v1.2.0 - 2023-05-24
 
+### [1.2.0](https://github.com/deloz/wechat-bridge/compare/v1.1.0...v1.2.0) (2023-05-24)
+
+#### Features
+
+- Add new payment method to Wechat Bridge ([6b67f8a](https://github.com/deloz/wechat-bridge/commit/6b67f8aad5921c5ad3bb7d0ee8f6e16f06def7fb))
+
+## [1.2.0](https://github.com/deloz/wechat-bridge/compare/v1.1.0...v1.2.0) (2023-05-24)
 
 ### Features
 
-* Add new payment method to Wechat Bridge ([6b67f8a](https://github.com/deloz/wechat-bridge/commit/6b67f8aad5921c5ad3bb7d0ee8f6e16f06def7fb))
+- Add new payment method to Wechat Bridge ([6b67f8a](https://github.com/deloz/wechat-bridge/commit/6b67f8aad5921c5ad3bb7d0ee8f6e16f06def7fb))
 
 ## v1.1.0 - 2023-05-24
 
