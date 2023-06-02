@@ -6,7 +6,6 @@ namespace Deloz\WechatBridge\Payment;
 
 use EasyWeChat\Kernel\Exceptions\InvalidArgumentException;
 use EasyWeChat\Pay\Application as BaseApplication;
-use Psr\SimpleCache\CacheInterface;
 
 final class Application
 {
@@ -15,20 +14,13 @@ final class Application
     /**
      * @throws InvalidArgumentException
      */
-    public function __construct(array $config, protected Payload $payload)
+    public function __construct(array $config)
     {
         $this->app = new BaseApplication($config);
     }
 
-    public function getPayment(): Payment
+    public function getPayment(Payload $payload): Payment
     {
-        return new Payment($this->app, $this->payload);
-    }
-
-    public function setCache(CacheInterface $cache): self
-    {
-        $this->app->setCache($cache);
-
-        return $this;
+        return new Payment($this->app, $payload);
     }
 }

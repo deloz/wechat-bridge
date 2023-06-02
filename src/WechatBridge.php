@@ -6,7 +6,6 @@ namespace Deloz\WechatBridge;
 
 use Deloz\WechatBridge\MiniProgram\Application as MiniProgramApplication;
 use Deloz\WechatBridge\Payment\Application as PaymentApplication;
-use Deloz\WechatBridge\Payment\Payload;
 use EasyWeChat\Kernel\Exceptions\InvalidArgumentException;
 
 final class WechatBridge
@@ -22,8 +21,8 @@ final class WechatBridge
     /**
      * @throws InvalidArgumentException
      */
-    public static function payment(array $config, Payload $payload): PaymentApplication
+    public static function pay(array $config): PaymentApplication
     {
-        return new PaymentApplication($config, $payload);
+        return new PaymentApplication($config);
     }
 }
