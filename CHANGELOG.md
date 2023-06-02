@@ -1,11 +1,18 @@
 # Changelog
 
-## [1.2.1](https://github.com/deloz/wechat-bridge/compare/v1.2.0...v1.2.1) (2023-06-02)
+## v1.2.1 - 2023-06-02
 
+### [1.2.1](https://github.com/deloz/wechat-bridge/compare/v1.2.0...v1.2.1) (2023-06-02)
+
+#### Code Refactoring
+
+- Remove unused Payload dependency from Payment Application constructor and getPayment method ([7872c72](https://github.com/deloz/wechat-bridge/commit/7872c72716c8e626022ff158127ea6922db7afbf))
+
+## [1.2.1](https://github.com/deloz/wechat-bridge/compare/v1.2.0...v1.2.1) (2023-06-02)
 
 ### Code Refactoring
 
-* Remove unused Payload dependency from Payment Application constructor and getPayment method ([7872c72](https://github.com/deloz/wechat-bridge/commit/7872c72716c8e626022ff158127ea6922db7afbf))
+- Remove unused Payload dependency from Payment Application constructor and getPayment method ([7872c72](https://github.com/deloz/wechat-bridge/commit/7872c72716c8e626022ff158127ea6922db7afbf))
 
 ## v1.2.0 - 2023-05-24
 
