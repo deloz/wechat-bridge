@@ -1,11 +1,18 @@
 # Changelog
 
-## [1.3.0](https://github.com/deloz/wechat-bridge/compare/v1.2.1...v1.3.0) (2023-06-02)
+## v1.3.0 - 2023-06-02
 
+### [1.3.0](https://github.com/deloz/wechat-bridge/compare/v1.2.1...v1.3.0) (2023-06-02)
+
+#### Features
+
+- add GetApplication trait to MiniProgram and Payment applicationsThis commit adds the GetApplication trait to the MiniProgram and Payment applications, allowing access to the EasyWeChat application instance ([c73d8fd](https://github.com/deloz/wechat-bridge/commit/c73d8fd8c213d912bc019fa5c8faffe1586c8a9f))
+
+## [1.3.0](https://github.com/deloz/wechat-bridge/compare/v1.2.1...v1.3.0) (2023-06-02)
 
 ### Features
 
-* add GetApplication trait to MiniProgram and Payment applicationsThis commit adds the GetApplication trait to the MiniProgram and Payment applications, allowing access to the EasyWeChat application instance ([c73d8fd](https://github.com/deloz/wechat-bridge/commit/c73d8fd8c213d912bc019fa5c8faffe1586c8a9f))
+- add GetApplication trait to MiniProgram and Payment applicationsThis commit adds the GetApplication trait to the MiniProgram and Payment applications, allowing access to the EasyWeChat application instance ([c73d8fd](https://github.com/deloz/wechat-bridge/commit/c73d8fd8c213d912bc019fa5c8faffe1586c8a9f))
 
 ## v1.2.1 - 2023-06-02
 
