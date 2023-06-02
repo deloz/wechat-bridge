@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/deloz/wechat-bridge/compare/v1.3.0...v1.4.0) (2023-06-02)
+
+
+### Features
+
+* add payment notification handlers and serve method to Payment Application class ([f2c748c](https://github.com/deloz/wechat-bridge/commit/f2c748c483613da2dcfe8143c184857205cad77d))
+
 ## v1.3.0 - 2023-06-02
 
 ### [1.3.0](https://github.com/deloz/wechat-bridge/compare/v1.2.1...v1.3.0) (2023-06-02)
