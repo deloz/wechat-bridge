@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Deloz\WechatBridge\Payment;
 
+use Deloz\WechatBridge\Traits\GetApplication;
 use EasyWeChat\Kernel\Exceptions\InvalidArgumentException;
 use EasyWeChat\Pay\Application as BaseApplication;
 
 final class Application
 {
+    use GetApplication;
     private BaseApplication $app;
 
     /**
