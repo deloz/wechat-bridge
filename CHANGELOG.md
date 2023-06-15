@@ -1,11 +1,18 @@
 # Changelog
 
-## [1.5.0](https://github.com/deloz/wechat-bridge/compare/v1.4.0...v1.5.0) (2023-06-15)
+## v1.5.0 - 2023-06-15
 
+### [1.5.0](https://github.com/deloz/wechat-bridge/compare/v1.4.0...v1.5.0) (2023-06-15)
+
+#### Features
+
+- **UrlLink:** add method to generate URL link ([0477fd9](https://github.com/deloz/wechat-bridge/commit/0477fd93a7e8aebd5083cf45c20d83258191a08f))
+
+## [1.5.0](https://github.com/deloz/wechat-bridge/compare/v1.4.0...v1.5.0) (2023-06-15)
 
 ### Features
 
-* **UrlLink:** add method to generate URL link ([0477fd9](https://github.com/deloz/wechat-bridge/commit/0477fd93a7e8aebd5083cf45c20d83258191a08f))
+- **UrlLink:** add method to generate URL link ([0477fd9](https://github.com/deloz/wechat-bridge/commit/0477fd93a7e8aebd5083cf45c20d83258191a08f))
 
 ## v1.4.0 - 2023-06-02
 
