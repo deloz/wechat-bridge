@@ -27,6 +27,11 @@ final class Application
         return new Auth($this->app);
     }
 
+    public function getUrlLink(): UrlLink
+    {
+        return new UrlLink($this->app);
+    }
+
     public function phoneNumber(): PhoneNumber
     {
         return new PhoneNumber($this->app);
