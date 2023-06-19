@@ -24,8 +24,15 @@ final class UrlLink
         return $this->sendRequestPost('/wxa/generate_urllink', $params)['url_link'];
     }
 
-    public function query(): void
+    /**
+     * @throws DecodingExceptionInterface
+     * @throws TransportExceptionInterface
+     */
+    public function query(string $urlLink): array
     {
+        return $this->sendRequestPost('/wxa/query_urllink', [
+            'url_link' => $urlLink,
+        ])['url_link_info'];
     }
 
     /**
