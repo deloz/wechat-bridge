@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/deloz/wechat-bridge/compare/v1.5.1...v1.5.2) (2023-06-19)
+
+
+### Bug Fixes
+
+* **MiniProgram:** fix bug in sendRequestPost method for UrlLink class ([e6f48d0](https://github.com/deloz/wechat-bridge/commit/e6f48d031b2d62a986100c585dfc5680ec59cc67))
+
 ## v1.5.1 - 2023-06-19
 
 ### [1.5.1](https://github.com/deloz/wechat-bridge/compare/v1.5.0...v1.5.1) (2023-06-19)
