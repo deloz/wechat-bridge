@@ -1,11 +1,18 @@
 # Changelog
 
-## [1.5.1](https://github.com/deloz/wechat-bridge/compare/v1.5.0...v1.5.1) (2023-06-19)
+## v1.5.1 - 2023-06-19
 
+### [1.5.1](https://github.com/deloz/wechat-bridge/compare/v1.5.0...v1.5.1) (2023-06-19)
+
+#### Code Refactoring
+
+- **UrlLink:** modify query method to accept and return values ([a6e4764](https://github.com/deloz/wechat-bridge/commit/a6e4764ac07edf8aceac62f88ab99400b29df747))
+
+## [1.5.1](https://github.com/deloz/wechat-bridge/compare/v1.5.0...v1.5.1) (2023-06-19)
 
 ### Code Refactoring
 
-* **UrlLink:** modify query method to accept and return values ([a6e4764](https://github.com/deloz/wechat-bridge/commit/a6e4764ac07edf8aceac62f88ab99400b29df747))
+- **UrlLink:** modify query method to accept and return values ([a6e4764](https://github.com/deloz/wechat-bridge/commit/a6e4764ac07edf8aceac62f88ab99400b29df747))
 
 ## v1.5.0 - 2023-06-15
 
