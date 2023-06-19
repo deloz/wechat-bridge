@@ -43,7 +43,9 @@ final class UrlLink
     private function sendRequestPost(string $url, array $payload): array
     {
         $ret = $this->app->getClient()
-            ->postJson($url, $payload)
+            ->postJson($url, [
+                'json' => $payload,
+            ])
             ->toArray(false);
 
         if (0 !== $ret['errcode']) {
