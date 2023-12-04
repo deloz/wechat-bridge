@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.3](https://github.com/deloz/wechat-bridge/compare/v1.5.2...v1.5.3) (2023-12-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump actions/checkout from 3 to 4 ([32e726e](https://github.com/deloz/wechat-bridge/commit/32e726ed883617f416d170110de552f9f5707ca7))
+* **deps:** bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 ([02860f2](https://github.com/deloz/wechat-bridge/commit/02860f2705dff80737f512a31498cf7750f3f633))
+* **deps:** bump google-github-actions/release-please-action ([b379d52](https://github.com/deloz/wechat-bridge/commit/b379d5299d09ed5d0ff3c5df9feaa6944f6bcee1))
+* **deps:** bump stefanzweifel/git-auto-commit-action from 4 to 5 ([b1d4b99](https://github.com/deloz/wechat-bridge/commit/b1d4b99da16b9b5a8ce8c5e6fce56a0c3a22eeb1))
+
 ## v1.5.2 - 2023-06-19
 
 ### [1.5.2](https://github.com/deloz/wechat-bridge/compare/v1.5.1...v1.5.2) (2023-06-19)
