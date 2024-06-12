@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.4](https://github.com/deloz/wechat-bridge/compare/v1.5.3...v1.5.4) (2024-03-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 ([4d746ab](https://github.com/deloz/wechat-bridge/commit/4d746ab44e34a38216d1837fde8f49eed664ca77))
+* **deps:** bump pascalgn/automerge-action from 0.15.6 to 0.16.0 ([0f96a8a](https://github.com/deloz/wechat-bridge/commit/0f96a8a1093b2b3cdc9b957c4bff73ae63fb1ed9))
+* **deps:** bump pascalgn/automerge-action from 0.16.0 to 0.16.1 ([668246f](https://github.com/deloz/wechat-bridge/commit/668246f0c6d89b920e70994b65f1987e8874aafa))
+* **deps:** bump pascalgn/automerge-action from 0.16.1 to 0.16.2 ([dd24020](https://github.com/deloz/wechat-bridge/commit/dd24020d1ec85085dac3e4ada94607f663042f46))
+
 ## v1.5.3 - 2023-12-04
 
 ### [1.5.3](https://github.com/deloz/wechat-bridge/compare/v1.5.2...v1.5.3) (2023-12-04)
